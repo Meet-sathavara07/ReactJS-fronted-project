@@ -1,0 +1,71 @@
+/* .btn {
+  @apply px-6 py-2 rounded-full flex justify-center font-semibold items-center gap-2 disabled:bg-opacity-20 disabled:hover:opacity-60 whitespace-nowrap;
+  transition: transform 300ms ease, background-color 300ms ease;
+  transform-style: preserve-3d;
+
+  &:hover {
+    transform: scale3d(0.96, 0.96, 1.01);
+  }
+
+  &--fill {
+    @apply  text-white ;
+  }
+
+  &--green {
+    @apply bg-green border-green;
+  }
+  &--yellow {
+    @apply bg-yellow border-yellow text-black;
+  }
+  &--black {
+    @apply bg-black border-black;
+  }
+
+  &--outlined {
+    @apply bg-transparent border-2;
+
+    &.btn--light {
+      @apply text-white border-white border-opacity-30;
+    }
+    &.btn--dark {
+      @apply text-green border-green border-opacity-30;
+    }
+    &:hover {
+      @apply border-opacity-100;
+    }
+  }
+
+  &--round {
+    @apply p-2 h-full aspect-square rounded-full;
+    &.btn--green {
+      @apply bg-green bg-opacity-20 text-green hover:text-white hover:bg-opacity-100;
+    }
+    &.btn--black {
+      @apply bg-black text-white;
+    }
+  }
+  &--icon {
+    @apply aspect-square px-0 py-0;
+  }
+} */
+.btn {
+  @apply flex gap-2 items-center;
+  &--colered {
+    @apply hover:bg-[#364958] tracking-widest rounded-full uppercase text-white py-3 px-14 focus:outline-none bg-[#ff6565] active:translate-y-0.5;
+  }
+
+  &--hover {
+    @apply hover:bg-[#ff6565] hover:text-white bg-transparent tracking-widest border-[1px] border-slate-950 rounded-full uppercase text-slate-950 py-3 px-14 focus:outline-none hover:border-0 active:translate-y-0.5;
+  }
+
+  &--transparent {
+    @apply bg-white tracking-widest border-2 border-red rounded-full uppercase focus:bg-white text-slate-950 py-3 px-4 active:translate-y-0.5;
+  }
+
+  &--rare {
+    @apply text-white tracking-widest bg-[#a49cff] hover:bg-[#6610f2] rounded-full transition-all ease-in duration-150 uppercase py-3 px-14 focus:outline-none active:translate-y-0.5;
+  }
+  &--shopbtn {
+    @apply font-normal rounded-full uppercase text-black border-rose-500 border-2 md:py-0 py-2 lg:py-2 w-2/3 focus:outline-none bg-white active:translate-y-0.5 flex justify-center;
+  }
+}

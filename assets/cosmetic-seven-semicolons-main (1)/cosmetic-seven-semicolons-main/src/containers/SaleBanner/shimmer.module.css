@@ -1,0 +1,55 @@
+.bg_shimmer_banner {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .bg_shimmer_banner:hover {
+    background: linear-gradient(-45deg, transparent 25%, transparent 30%, transparent 45%, rgba(255, 255, 255, 0.5) 50%, transparent 55%, transparent 75%, transparent 100%);
+    background-size: 200% 200%;
+    animation: shimmer .7s normal;
+    /* Change 500ms to 1s and make it infinite */
+  }
+  
+  .shimmer_div:hover .bg_shimmer_banner {
+    animation: shimmer-reverse .7s forwards;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+  
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  @keyframes shimmer-reverse {
+    0% {
+      background-position: 200% 0;
+    }
+  
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
+  @keyframes opacity {
+    0% {
+      opacity: 1;
+    }
+  
+    80% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity:0;
+    }
+}

@@ -1,0 +1,5 @@
+.inputGroup {
+  & .label {
+    @apply block font-medium leading-6 mb-2;
+  }
+}
