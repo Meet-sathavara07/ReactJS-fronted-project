@@ -1,7 +1,0 @@
-.section {
-  @apply flex flex-col gap-8;
-
-  & > .title {
-    @apply text-black text-center sm:mt-0 mt-4;
-  }
-}

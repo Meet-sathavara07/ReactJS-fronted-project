@@ -1,7 +1,0 @@
-.heading {
-  @apply text-center text-heading5 font-[roboto] text-5xl font-semibold mb-8 pt-7;
-}
-
-.btnIcon {
-  @apply w-6 aspect-square text-black;
-}
