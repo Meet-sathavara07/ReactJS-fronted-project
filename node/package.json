@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "appmap-node": "^2.22.0",
     "express": "^4.19.2",
     "mongodb": "^6.6.2",
     "nodemon": "^3.1.0"
