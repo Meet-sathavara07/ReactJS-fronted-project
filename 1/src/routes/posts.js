@@ -76,7 +76,7 @@ function Posts() {
       setPostContent('');
       setSelectedClients(new Set());
       setFileInputs([{ id: Date.now() }]);
-      setPostType('Regular'); // Reset post type to default
+      setPostType('Regular'); 
     } catch (error) {
       setError(error.message);
     }

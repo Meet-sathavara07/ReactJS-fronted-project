@@ -9,7 +9,7 @@ function Dashboard() {
   const [error, setError] = useState(null);
   const [name, setName] = useState('');
   const [pan, setPan] = useState('');
-  const [, setSelectedFile] = useState(null);
+  const [ setSelectedFile] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [fileInputs, setFileInputs] = useState([{ id: Date.now() }]);
   const [showPostForm, setShowPostForm] = useState(false);
@@ -125,7 +125,7 @@ function Dashboard() {
         throw new Error(`Error: ${response.status} - ${errorText}`);
       }
 
-;
+      alert('Post sent successfully!');
       setPostTitle('');
       setPostContent('');
       setSelectedFile(null);

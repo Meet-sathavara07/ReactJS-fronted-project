@@ -13,16 +13,26 @@ const authRoutes = require('./src/routes/auth');
 
 const app = express();
 const port = process.env.PORT || 5000;
+require('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
 
+const uploadFolder = path.join(__dirname, 'uploads');
+
+const caPostUploadPath = path.join(uploadFolder, 'CA_Post');
+const postUploadPath = path.join(uploadFolder, 'Client_Post');
+
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const uploadDir = path.join(__dirname, 'uploads', 'CA_Send_Post');
+    // Determine upload path based on request URL
+    const uploadDir = req.url.startsWith('/ca-posts') ? caPostUploadPath : postUploadPath;
+
+    // Create the directory if it doesn't exist
     if (!fs.existsSync(uploadDir)) {
       fs.mkdirSync(uploadDir, { recursive: true });
     }
+
     cb(null, uploadDir);
   },
   filename: (req, file, cb) => {
@@ -32,7 +42,10 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-mongoose.connect('mongodb://localhost:27017/client-management', {
+
+
+
+mongoose.connect('process.env.MONGODB_URI', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
@@ -135,7 +148,7 @@ app.post('/posts', upload.array('attachments'), async (req, res) => {
       return res.status(400).json({ error: 'clientIds should be an array of valid ObjectIDs' });
     }
 
-    const attachmentUrls = attachments.map(file => `${req.protocol}://${req.get('host')}/uploads/CA_Send_Post/${file.filename}`);
+    const attachmentUrls = attachments.map(file => `${req.protocol}://${req.get('host')}/uploads/Client_Post/${file.filename}`);
 
     const newPost = new Post({
       clientIds: parsedClientIds,
@@ -226,7 +239,7 @@ app.post('/ca-posts', upload.array('attachments'), async (req, res) => {
 
     const parsedClientIds = parseAndValidateClientIds(clientIds);
 
-    const attachmentUrls = attachments.map(file => `${req.protocol}://${req.get('host')}/uploads/CA_Send_Post/${file.filename}`);
+    const attachmentUrls = attachments.map(file => `${req.protocol}://${req.get('host')}/uploads/CA_Post/${file.filename}`);
 
     const newCaPost = new CaPost({
       clientIds: parsedClientIds,
