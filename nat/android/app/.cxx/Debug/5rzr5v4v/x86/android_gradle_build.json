@@ -1,0 +1,201 @@
+{
+  "buildFiles": [
+    "D:\\nat\\node_modules\\@react-native-async-storage\\async-storage\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\@react-native-camera-roll\\camera-roll\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\@react-native-community\\geolocation\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\@react-native-documents\\picker\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\@react-native-google-signin\\google-signin\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\@sentry\\react-native\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-bootsplash\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-date-picker\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-gesture-handler\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-haptic-feedback\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-image-picker\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-maps\\android\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-mmkv\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-pager-view\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-pdf\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-permissions\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-reanimated\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-safe-area-context\\android\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-screens\\android\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-share\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-svg\\android\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-vector-icons\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native-webview\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "D:\\nat\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\android sdk's\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\nat\\android\\app\\.cxx\\Debug\\5rzr5v4v\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\android sdk's\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\nat\\android\\app\\.cxx\\Debug\\5rzr5v4v\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "appmodules",
+      "output": "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libappmodules.so",
+      "runtimeFiles": [
+        "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libreact_codegen_safeareacontext.so",
+        "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libreact_codegen_rnscreens.so",
+        "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libreact_codegen_rnsvg.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\3e69f16dd2ed59beb233f0ed9b742c95\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.x86\\libfbjni.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\jsi\\libs\\android.x86\\libjsi.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\reactnative\\libs\\android.x86\\libreactnative.so"
+      ]
+    },
+    "react_codegen_RNBootSplashSpec::@05d5bd8b08339ce1ebaa": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNBootSplashSpec"
+    },
+    "react_codegen_RNCGeolocationSpec::@1b959fcb56e23f7716ba": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNCGeolocationSpec"
+    },
+    "react_codegen_RNCWebViewSpec::@eb48929f9f7453740a6c": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNCWebViewSpec"
+    },
+    "react_codegen_RNDatePickerSpecs::@c00f981c6e74346c63d4": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNDatePickerSpecs"
+    },
+    "react_codegen_RNGoogleSignInCGen::@337b7b353bd94a4215c0": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNGoogleSignInCGen"
+    },
+    "react_codegen_RNHapticFeedbackSpec::@a83561f277f6afbb326c": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNHapticFeedbackSpec"
+    },
+    "react_codegen_RNImagePickerSpec::@f66ee9a2efecfb28bee4": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNImagePickerSpec"
+    },
+    "react_codegen_RNMapsSpecs::@5748abef1962d24942ec": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNMapsSpecs"
+    },
+    "react_codegen_RNPermissionsSpec::@7ad697819b753921c957": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNPermissionsSpec"
+    },
+    "react_codegen_RNSentrySpec::@b85314237d91cb2ada57": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNSentrySpec"
+    },
+    "react_codegen_RNShareSpec::@e6c4c2b5aedb2ea213b7": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNShareSpec"
+    },
+    "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_RNVectorIconsSpec"
+    },
+    "react_codegen_pagerview::@7032a8921530ec438d60": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_pagerview"
+    },
+    "react_codegen_reactnativemmkv::@53a90ad335aa3dba27a5": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_reactnativemmkv"
+    },
+    "react_codegen_rnasyncstorage::@1596841e19ec5b9eeffe": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rnasyncstorage"
+    },
+    "react_codegen_rncameraroll::@60139d220751b3dabc04": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rncameraroll"
+    },
+    "react_codegen_rndocumentpickerCGen::@aac1846a245ca418eb66": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rndocumentpickerCGen"
+    },
+    "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rngesturehandler_codegen"
+    },
+    "react_codegen_rnpdf::@7ef4ba29a735fbf48be7": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rnpdf"
+    },
+    "react_codegen_rnreanimated::@8afabad14bfffa3f8b9a": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rnreanimated"
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rnscreens",
+      "output": "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\reactnative\\libs\\android.x86\\libreactnative.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\jsi\\libs\\android.x86\\libjsi.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\3e69f16dd2ed59beb233f0ed9b742c95\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.x86\\libfbjni.so"
+      ]
+    },
+    "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rnsvg",
+      "output": "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libreact_codegen_rnsvg.so",
+      "runtimeFiles": [
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\reactnative\\libs\\android.x86\\libreactnative.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\jsi\\libs\\android.x86\\libjsi.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\3e69f16dd2ed59beb233f0ed9b742c95\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.x86\\libfbjni.so"
+      ]
+    },
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_safeareacontext",
+      "output": "D:\\nat\\android\\app\\build\\intermediates\\cxx\\Debug\\5rzr5v4v\\obj\\x86\\libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\3e69f16dd2ed59beb233f0ed9b742c95\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.x86\\libfbjni.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\jsi\\libs\\android.x86\\libjsi.so",
+        "C:\\Users\\cheta\\.gradle\\caches\\9.0.0\\transforms\\6bd62c5cfa2cf87555733ddb0a7bbad0\\transformed\\react-android-0.82.1-debug\\prefab\\modules\\reactnative\\libs\\android.x86\\libreactnative.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "D:\\android sdk's\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\android sdk's\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

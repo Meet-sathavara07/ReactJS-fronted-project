@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="nat.react-native-reanimated" target="21" />
+      <module name="nat.react-native-splash-screen" target="21" />
+      <module name="nat.react-native-ui-lib" target="21" />
+      <module name="nat.sentry_react-native" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
